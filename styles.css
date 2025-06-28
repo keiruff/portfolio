@@ -125,4 +125,51 @@ header nav a:hover {
 .project a:hover {
   text-decoration: underline;
 }
+/* Services Packages Section */
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.package {
+  flex: 1 1 250px;
+  max-width: 300px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.package:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.package h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: #00c853;
+  font-size: 1.2rem;
+}
+
+.package p {
+  color: #ccc;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.package .price {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffd600;
+}
+
 
