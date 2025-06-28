@@ -73,6 +73,14 @@ header nav a:hover {
   background: #00e676;
   color: #000;
 }
+.hero-text .tagline {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffd600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
 
 .hero-image {
   flex: 1 1 300px;
